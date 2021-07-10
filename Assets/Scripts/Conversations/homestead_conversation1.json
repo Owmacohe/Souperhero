@@ -1,0 +1,274 @@
+{
+	"nodes": [
+		{
+			"id": "0",
+			"dialogue": "Sniff... sniffle... Oh dear... sniffle...",
+			"response1": "Excuse me, are you alright?",
+			"response2": "Uh, hello? Are you crying?",
+			"response3": "What's all this sniffling for, huh?"
+		},
+		{
+			"id": "0.0",
+			"dialogue": "Oh, I'm alright. I guess my eyes are just a little leeky right now.",
+			"response1": "Anything I can do to help?",
+			"response2": "I know what you mean.",
+			"response3": "My eyes are always leeky."
+		},
+		{
+			"id": "0.0.0",
+			"dialogue": "That's very kind of you. Do you know anywhere I could stay to get my bearings?",
+			"response1": "You can stay at my house! It's right down the road. Just tell my parents that I sent you.",
+			"response2": "My parents could make you some soup! Just continue down the road until you see a big house.",
+			"response3": "Sorry, no. I can't think of anywhere."
+		},
+		{
+			"id": "0.0.0.0",
+			"dialogue": "Thank you! I'll head there right away!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.0.1",
+			"dialogue": "That sounds like a salad plan! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.0.2",
+			"dialogue": "Oh, okay. Well, thanks for checking on me!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.1",
+			"dialogue": "I think I might be lost. I've never seen this part of Arvum before. The Deluge uprooted me and I'm frightened!",
+			"response1": "I'm sorry you're frightened. If you'd like, you can stay at my house up the road.",
+			"response2": "Being frightened won't help! You're safe on my homestead.",
+			"response3": "Well, you're in no danger here."
+		},
+		{
+			"id": "0.0.1.0",
+			"dialogue": "Thank you! I'll head there right away!",
+			"response1": "See you later!",
+			"response2": "Safe travels!"
+		},
+		{
+			"id": "0.0.1.1",
+			"dialogue": "Thank you, I feel better already. I'll seek shelter up the road.",
+			"response1": "See you later!",
+			"response2": "Safe travels!"
+		},
+		{
+			"id": "0.0.1.2",
+			"dialogue": "You're right, it seems peaceful here. I'll be on my way. Thanks for checking on me!",
+			"response1": "See you later!",
+			"response2": "Safe travels!"
+		},
+		{
+			"id": "0.0.2",
+			"dialogue": "Oh, I'm sorry, I didn't mean to offend you. I'm just a little frightened right now.",
+			"response1": "It's not a problem, I was just joking. Do you need help?",
+			"response2": "This homestead is safe, no need to be afraid!",
+			"response3": "Are you lost?"
+		},
+		{
+			"id": "0.0.2.0",
+			"dialogue": "I think I might be lost. I've never seen this part of Arvum before. The Deluge uprooted me and I'm frightened!",
+			"response1": "Don't be frightened! You can stay at my house up the road to get your bearings!",
+			"response2": "This homestead is safe, there's shelter up ahead!",
+			"response3": "Be brave! Everything will be okay!"
+		},
+		{
+			"id": "0.0.2.0.0",
+			"dialogue": "That's very kind of you, I'll head there right away! Thank you!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.0.1",
+			"dialogue": "I'll head there right away! Thank you!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.0.2",
+			"dialogue": "You're right! I should be brave! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1",
+			"dialogue": "M-maybe... just a little...",
+			"response1": "Anything I can do to help?",
+			"response2": "Are you lost?",
+			"response3": "Well, why's that?"
+		},
+		{
+			"id": "0.1.0",
+			"dialogue": "That's very kind of you. Do you know anywhere I could stay to get my bearings?",
+			"response1": "You can stay at my house! It's right down the road. Just tell my parents that I sent you.",
+			"response2": "My parents could make you some soup! Just continue down the road until you see a big house.",
+			"response3": "Sorry, no. I can't think of anywhere."
+		},
+		{
+			"id": "0.1.0.0",
+			"dialogue": "Thank you! I'll head there right away!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.0.1",
+			"dialogue": "That sounds like a salad plan! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.0.2",
+			"dialogue": "Oh, okay. Well, thanks for checking on me!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1",
+			"dialogue": "I think so. The Deluge uprooted me from my plot in Arvum and I'm frightened!",
+			"response1": "Oh no! I'm sorry to hear that. My house is up ahead, if you want to rest?",
+			"response2": "I imagine that it's been hard for you. Do you like soup?",
+			"response3": "Don't be afraid! This homestead is safe."
+		},
+		{
+			"id": "0.1.1.0",
+			"dialogue": "That sounds like a salad plan! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1",
+			"dialogue": "I do like soup, quite a lot.",
+			"response1": "You can stay at my place up the road!",
+			"response2": "So do I!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1.0",
+			"dialogue": "That sounds like a salad plan! Thanks a lot!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1.1",
+			"dialogue": "Thanks for spending some time with me. I feel much better. I'll continue on my way!",
+			"response1": "You're welcome! Safe travels!",
+			"response2": "Any time! See ya later!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.2",
+			"dialogue": "You're right! I've got to be brave! Thank you for your help!",
+			"response1": "Any time! Safe travels!",
+			"response2": "Good luck out there!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2",
+			"dialogue": "I think I might be lost. I've never seen this part of Arvum before. The Deluge uprooted me and I'm frightened!",
+			"response1": "Oh, no! Do you need a place to stay?",
+			"response2": "No need to be frightened! This homestead is safe!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0",
+			"dialogue": "That's very kind of you to offer!",
+			"response1": "It's just up the road, my parents can make you some soup!",
+			"response2": "Follow the path, you'll see our house soon.",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0.0",
+			"dialogue": "Oh, yay! I love soup! Thank you!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0.1",
+			"dialogue": "Thank you so much! You're too kind!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.1",
+			"dialogue": "That's a relief. There's so much uncertainty after the Deluge. Thank you, I'm sure I'll be okay!",
+			"response1": "I know you will! Safe travels, friend!",
+			"response2": "This part of Arvum can't be beet! Have a nice day!",
+			"response3": ""
+		},
+		{
+			"id": "0.2",
+			"dialogue": "I think I might be lost. I've never seen this part of Arvum before. The Deluge uprooted me and I'm frightened!",
+			"response1": "Oh, no! Do you need a place to stay?",
+			"response2": "That's rough. Where did you come from?",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0",
+			"dialogue": "That would be lovely. Do you know of any shelter?",
+			"response1": "Yes, my parents and I live in the house up the road. Head there, you'll be safe!",
+			"response2": "Continue up the path. I hope you like soup!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0.0",
+			"dialogue": "Thank you! I'll head there now!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0.1",
+			"dialogue": "I love soup! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.1",
+			"dialogue": "I came from near the Vineyard. A whole bunch of us on the Border got washed away by the Deluge.",
+			"response1": "Then I'll expect to find more of you. If you need shelter, my house is up the road!",
+			"response2": "The Vineyard Border is quite far away. You're very brave to be all the way out here!",
+			"response3": "I see."
+		},
+		{
+			"id": "0.2.1.0",
+			"dialogue": "Oh, thank you! I'll head there right away!",
+			"response1": "See you later!",
+			"response2": "Stay safe!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.1.1",
+			"dialogue": "Thank you. I was feeling frightened, but I'm better now. I think I can continue my travels.",
+			"response1": "Best of luck to you, friend!",
+			"response2": "Okay, safe travels!",
+			"response3": "Bye!"
+		},
+		{
+			"id": "0.2.1.2",
+			"dialogue": "I think I had a moment of panic. I'm feeling better now, and I'll be on my way. Thanks for stopping to check on me!",
+			"response1": "My pleasure, I hope you have safe travels!",
+			"response2": "Glad you're doing better. See you around!",
+			"response3": "This area can be a bit of a maize, so good luck in your wanderings!"
+		}
+	]
+}
