@@ -13,7 +13,8 @@ using UnityEngine;
 
 public class ConversationController : MonoBehaviour
 {
-    public TextAsset conversationTree; // conversation JSON text file
+    public GameObject conversationTarget;
+    public TextAsset[] conversationTrees; // conversation JSON text file
     public Sprite backdropSprite; // sprite for the backdrop when the conversation pops up
     public Sprite playerSprite; // sprite for the player in the conversation
     public Sprite NPCSprite; // sprite for the NPC in the conversation
@@ -25,19 +26,30 @@ public class ConversationController : MonoBehaviour
     private JSONReader parser; // JSON parsing script
     private string currentNode; // the current node
     private GameObject stageParent; // the parent of all of the conversation sprites and buttons
+    private bool isHittingPlayer;
+    private GameObject player;
+    private bool isExhausted;
 
     private void Start()
     {
+        isExhausted = false;
+
+        player = GameObject.FindGameObjectWithTag("Player");
+
         // Turning the stage off to start
         stageParent = transform.GetChild(0).gameObject;
         stageParent.SetActive(false);
 
         exitConversation();
+        GetComponent<CircleCollider2D>().offset = new Vector2(
+            gameObject.transform.InverseTransformPoint(conversationTarget.transform.position).x,
+            gameObject.transform.InverseTransformPoint(conversationTarget.transform.position).y - 1f
+        );
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!isExhausted && Input.GetKeyDown(KeyCode.E) && isHittingPlayer)
         {
             if (stageParent.activeSelf)
             {
@@ -54,10 +66,12 @@ public class ConversationController : MonoBehaviour
     public void startConversation()
     {
         stageParent.SetActive(true);
+        conversationTarget.SetActive(false);
+        player.SetActive(false);
 
         // Loading the node
         parser = GetComponent<JSONReader>();
-        parser.parseJSON(conversationTree);
+        parser.parseJSON(conversationTrees[Mathf.RoundToInt(Random.Range(0, conversationTrees.Length - 1))]);
         loadSpecificNode("0");
 
         // Loading the sprites
@@ -70,6 +84,8 @@ public class ConversationController : MonoBehaviour
     public void exitConversation()
     {
         stageParent.SetActive(false);
+        conversationTarget.SetActive(true);
+        player.SetActive(true);
     }
 
     // Method to load a specific node
@@ -87,9 +103,10 @@ public class ConversationController : MonoBehaviour
         // When the nodes run out
         catch
         {
-            stageParent.SetActive(false);
-            
-            // DO SOME EFFECT HERE AFTER WINNING OR LOSING
+            exitConversation();
+            isExhausted = true;
+
+            // DO SOME EFFECT HERE AFTER TALKING
         }
     }
 
@@ -111,5 +128,18 @@ public class ConversationController : MonoBehaviour
         }
 
         loadSpecificNode(currentNode); // Loading the next node
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isHittingPlayer = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isHittingPlayer = false;
     }
 }

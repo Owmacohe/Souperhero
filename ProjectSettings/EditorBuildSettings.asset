@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 1354d13ccaa5f7b40b17e7dc7fc50cd3
   - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: a5e492a3b3ec9024b82d42de9c0b592f
+  - enabled: 1
     path: Assets/Scenes/SafeRoom.unity
     guid: 36a9609ca5b28c74c98b19a22de2f63a
   - enabled: 1
     path: Assets/Scenes/LevelsScene.unity
     guid: b884fd5482b45fd4bbc9ecc1f7432de3
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 07adb57194748a545a84d6961c21a34d
   m_configObjects: {}
