@@ -1,0 +1,34 @@
+{
+	"descriptions": [
+		{
+			"id": "bowl_kintsugi",
+			"name": "Kintsugi Bowl",
+			"description": "All that is gold does not glitter, not all those who wander are lost. A lesson in putting yourself back together."
+		},
+		{
+			"id": "bowl_obsidian",
+			"name": "Obsidian Bowl",
+			"description": "This bowl is made of shimmering stone, black as the night sky. Sometimes called 'dragon glass,' the edges are sharp."
+		},
+		{
+			"id": "bowl_purpleheart",
+			"name": "Purpleheart Bowl",
+			"description": "From the Amaranth region, this bowl flashes with purple and pink, depending on the light. Feel the love!"
+		},
+		{
+			"id": "bowl_terracotta",
+			"name": "Terracotta Bowl",
+			"description": "The most basic of bowls, yet still a deep, satisfying color. Part of you wants to smash it..."
+		},
+		{
+			"id": "bowl_turquoise",
+			"name": "Turquoise Bowl",
+			"description": "You feel a strong connection to the earth when you hold this bowl. We all return to our roots."
+		},
+		{
+			"id": "bowl_master",
+			"name": "Master Bowl",
+			"description": "The combination of colors strikes you as strange, but when you wear this bowl, you feel a huge sense of power!"
+		}
+	]
+}

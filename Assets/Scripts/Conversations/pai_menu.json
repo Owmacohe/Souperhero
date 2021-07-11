@@ -1,0 +1,18 @@
+{
+	"nodes": [
+		{
+			"id": "0",
+			"dialogue": "Olá, pequenino! Heading out again? You know what they say about going alone…",
+			"response1": "Yeah, yeah, it's dangero-!",
+			"response2": "",
+			"response3": ""
+		},
+		{
+			"id": "0.0",
+			"dialogue": "That's right! Maybe you should take this?",
+			"response1": "Good idea.",
+			"response2": "",
+			"response3": ""
+		}
+	]
+}

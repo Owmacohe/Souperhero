@@ -1,0 +1,34 @@
+{
+	"descriptions": [
+		{
+			"id": "spoon_copper",
+			"name": "Copper Spoon",
+			"description": "This most basic of utensils has served you well. It may be a little rusty, but you love it dearly."
+		},
+		{
+			"id": "spoon_silver",
+			"name": "Silver Spoon",
+			"description": "You weren't born with this, but rather, you earned it! Or maybe you found it? Who knows for sure?"
+		},
+		{
+			"id": "spoon_gold",
+			"name": "Gold Spoon",
+			"description": "Not exactly practical, but you feel pretty special when wielding this utensil!"
+		},
+		{
+			"id": "spoon_platinum",
+			"name": "Platinum Spoon",
+			"description": "Extra shimmery, extra shiny, this spoon is the most expensive thing you've ever held in your... hands? Those are hands, right?"
+		},
+		{
+			"id": "spoon_sapphire",
+			"name": "Sapphire Spoon",
+			"description": "This utensil of legend, when paired with the mythic Master Bowl, bestows upon the wielder the power to cultivate the ultimate soup!"
+		},
+		{
+			"id": "spoon_spork",
+			"name": "Cursed Spoon",
+			"description": "This spoon looks like someone attempted to fuse it with prongs. Why would anyone do that?!"
+		}
+	]
+}
