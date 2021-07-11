@@ -192,20 +192,20 @@ PrefabInstance:
       objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTrees.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTrees.Array.data[0]
       value: 
-      objectReference: {fileID: 4900000, guid: 7d86230b281f18149a6cf510aa53ab71, type: 3}
+      objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTrees.Array.data[1]
       value: 
-      objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
+      objectReference: {fileID: 4900000, guid: 90e17eccf67c36448801ae84ecd5fdf1, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTrees.Array.data[2]
       value: 
-      objectReference: {fileID: 4900000, guid: 90e17eccf67c36448801ae84ecd5fdf1, type: 3}
+      objectReference: {fileID: 4900000, guid: 511de4a3261b7614c9b3cad5e557291c, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTrees.Array.data[3]
       value: 
