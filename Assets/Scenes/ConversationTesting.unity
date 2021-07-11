@@ -364,6 +364,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8278343935996215788, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278343936677817508, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8278343937074297588, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -423,7 +431,7 @@ PrefabInstance:
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: backdropSprite
       value: 
-      objectReference: {fileID: 21300000, guid: bd7a9cc982d4d934abb46c8952e19504, type: 3}
+      objectReference: {fileID: 21300000, guid: 118203d1e96b51e40b0c0651ed791e78, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTree
       value: 
@@ -720,6 +728,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80d07d2ea73f8034ebe3c743d3603654, type: 3}
+  m_Script: {fileID: 11500000, guid: ffdd942456fc7b243a3abae6873fa37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
