@@ -137,11 +137,14 @@ public class ConversationController : MonoBehaviour
                 }
             }
 
-            player.GetComponent<PlayerMovements>().talkCount++;
-
-            if (player.GetComponent<PlayerMovements>().talkCount >= 2)
+            if (doesGiveItem)
             {
-                SceneManager.LoadScene("Epilogue");
+                player.GetComponent<PlayerMovements>().talkCount++;
+
+                if (player.GetComponent<PlayerMovements>().talkCount >= 2)
+                {
+                    SceneManager.LoadScene("Epilogue");
+                }
             }
         }
     }
