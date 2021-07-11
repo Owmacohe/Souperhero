@@ -1,0 +1,291 @@
+{
+	"nodes": [
+		{
+			"id": "0",
+			"dialogue": "Hum de dum de dum, la la laaa~ My, it's a beautiful day, isn't it?",
+			"response1": "It is! How are you doing today?",
+			"response2": "The sun's out, there's a gentle breeze... this day can't be beet!",
+			"response3": "It's too bright, I think I'm wilting..."
+		},
+		{
+			"id": "0.0",
+			"dialogue": "I'm doing swell! I just wandered out here from near the Dungeon. Things are heating up over there!",
+			"response1": "Well, my house is just up the way, if you'd like to rest.",
+			"response2": "That's a long walk!",
+			"response3": "What's happening in the Dungeon?"
+		},
+		{
+			"id": "0.0.0",
+			"dialogue": "Oh, how sweet of you! Should I bring anything with me?",
+			"response1": "Just the appetite you've no doubt worked up!",
+			"response2": "I don't think my parents carrot all, just tell them Leenk sent you.",
+			"response3": "Beetween you and me, I don't think it matters."
+		},
+		{
+			"id": "0.0.0.0",
+			"dialogue": "Thank you! I'll head there right away!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.0.1",
+			"dialogue": "That sounds like a salad plan! Thank you for your help!",
+			"response1": "See you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.0.2",
+			"dialogue": "Oh, okay. Well, I'll see you later then!",
+			"response1": "Bye!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.1",
+			"dialogue": "I'm looking for a place to stop and take root for a while, if I'm honest.",
+			"response1": "I have just the place! Head up the road and you'll see my house.",
+			"response2": "This homestead is safe, you could take root anywhere here.",
+			"response3": "Don't wheat around here, it's safer up the road."
+		},
+		{
+			"id": "0.0.1.0",
+			"dialogue": "Oh, isn't that Momme de Terre's house? I've met herbivore! I'll seed you later!",
+			"response1": "Lentil later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.1.1",
+			"dialogue": "You're right, this homestead is beanormous! Do you mind if I romaine here for a bit?",
+			"response1": "Not at all. Best of luck, friend!",
+			"response2": "You can try up the road if you seek shelter. Otherwise, safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.1.2",
+			"dialogue": "That's a good idea. Thanks for your help!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2",
+			"dialogue": "Not much. There's a Dragonfruit on a rampage. Olive the Kili are fleeing.",
+			"response1": "Soy vey, that sounds dangerous! Do you want a place to stay?",
+			"response2": "That's tuberd. Are you okay?",
+			"response3": "Here today, corn tomorrow..."
+		},
+		{
+			"id": "0.0.2.0",
+			"dialogue": "I wouldn't mind stopping to rest. I think I'm starting to wilt...",
+			"response1": "My home is up the path, feel free to let my parents know I sent you!",
+			"response2": "Time to get out of the sun for a bit! There's shelter up ahead.",
+			"response3": "Be brave! Everything will be okay!"
+		},
+		{
+			"id": "0.0.2.0.0",
+			"dialogue": "That's very kind of you, I'll head there right away! Thank you!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.0.1",
+			"dialogue": "I'll head there right away! Thank you!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.0.2",
+			"dialogue": "You're right! I should be brave! Thank you for your help!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.1",
+			"dialogue": "I'll be alright, thanks for asking.",
+			"response1": "Okay, take care of yourself!",
+			"response2": "Best of luck in your travels, friend!",
+			"response3": ""
+		},
+		{
+			"id": "0.0.2.2",
+			"dialogue": "Ain't that the truth... Anyway, I'll be on my way!",
+			"response1": "I'm rooting for you!",
+			"response2": "Best of luck in your travels, friend!",
+			"response3": "So long!"
+		},
+		{
+			"id": "0.1",
+			"dialogue": "I really clove this weather! It's nicer here than over by the Dungeon.",
+			"response1": "Do you need a place to stay?",
+			"response2": "Are you lost?",
+			"response3": "Well, why's that?"
+		},
+		{
+			"id": "0.1.0",
+			"dialogue": "It couldn't hurt. Do you know of anywhere nearby?",
+			"response1": "My house is just up the road! You can stay there and get some delicious soup!",
+			"response2": "If you like, you can continue up the road to my home.",
+			"response3": "Sorry, no. I can't think of anywhere."
+		},
+		{
+			"id": "0.1.0.0",
+			"dialogue": "I just clove soup! I'll head there now.",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.0.1",
+			"dialogue": "That sounds like a salad plan! I'll seed you there!",
+			"response1": "See you soon!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.0.2",
+			"dialogue": "Oh, okay. Well, thanks for checking on me!",
+			"response1": "Better luck next thyme!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1",
+			"dialogue": "I think so. Between the Deluge and the Dragonfruit, I don't know what to do.",
+			"response1": "You can always stay with us. My house is up the road.",
+			"response2": "That's rough. There's not mushroom, but you can stay with us if you'd like?",
+			"response3": "Sometimes we just gotta plow through our hardships..."
+		},
+		{
+			"id": "0.1.1.0",
+			"dialogue": "That sounds like a salad plan! Thank you for your help!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1",
+			"dialogue": "That's very kind! Maybe I can order us a beetza from my favorite beetzeria as thanks?",
+			"response1": "We love beetza!",
+			"response2": "We aren't too keen on beetza...",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1.0",
+			"dialogue": "I'll head there right away!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.1.1",
+			"dialogue": "Oh, okay. I'll think of something else to bring. Seed you later!",
+			"response1": "Seed you soon!",
+			"response2": "Maybe some bread? Either way, safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.1.2",
+			"dialogue": "Yeah, sometimes I make a big dill out of nothing. Thanks for chatting with me, so long!",
+			"response1": "Any time! Safe travels!",
+			"response2": "Good luck out there!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2",
+			"dialogue": "The Dragonfruit gardening the Dungeon is on a rampage. Many of the Kili are fleeing!",
+			"response1": "Oh, no! Do you need a place to stay?",
+			"response2": "There's a Dragonfruit?!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0",
+			"dialogue": "That's very kind of you to offer!",
+			"response1": "It's just up the road, my parents can make you some soup!",
+			"response2": "Follow the path, you'll see our house soon.",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0.0",
+			"dialogue": "Oh, yay! I love soup! Thank you!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.0.1",
+			"dialogue": "Thank you so much! You're too kind!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.1.2.1",
+			"dialogue": "Yeah! It didn't appreciate the Deluge flooding its bed, so its bean causing a ruckus in the Dungeon.",
+			"response1": "Well, this homestead is safe, so take all the thyme you need.",
+			"response2": "That makes me really happy to be in this part of Arvum. Safe travels, friend!",
+			"response3": "*flee in terror*"
+		},
+		{
+			"id": "0.2",
+			"dialogue": "You must have bean in the sun for too much thyme. Is there any shelter nearby?",
+			"response1": "My house is just up the road, if you'd like to stay.",
+			"response2": "I just came from home, but I'm looking for recipes for my cookbook.",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0",
+			"dialogue": "Home swheat home! I'd love to stop by for a visit!",
+			"response1": "You'll be safe there!",
+			"response2": "Continue up the path. I hope you like soup!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0.0",
+			"dialogue": "Thank you! I'll head there now!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.0.1",
+			"dialogue": "I love soup! Thank you for your help!",
+			"response1": "Seed you later!",
+			"response2": "Safe travels!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.1",
+			"dialogue": "A cookbook, you say? I hear Baron Carrotine likes to collect recipes, maybe you could talk to them?",
+			"response1": "Interesting. I'll have to look into that. In the meantime, seek shelter up ahead!",
+			"response2": "Baron Carrotine? I needed to speak with them anyway. Perhaps I'll seek them out.",
+			"response3": "I see."
+		},
+		{
+			"id": "0.2.1.0",
+			"dialogue": "Oh, thank you! I'll head there right away!",
+			"response1": "Seed you later!",
+			"response2": "Stay safe!",
+			"response3": ""
+		},
+		{
+			"id": "0.2.1.1",
+			"dialogue": "You never know what you'll find. Have a nice day!",
+			"response1": "Best of luck to you, friend!",
+			"response2": "Okay, safe travels!",
+			"response3": "Bye!"
+		},
+		{
+			"id": "0.2.1.2",
+			"dialogue": "Well, I'll be on my way.",
+			"response1": "Phew, I thought you intended on romaine-ing here all day...",
+			"response2": "Peas out!",
+			"response3": "This area can be a bit of a maize, so good luck in your wanderings!"
+		}
+	]
+}
