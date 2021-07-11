@@ -13,7 +13,7 @@ using UnityEngine;
 
 public class ConversationController : MonoBehaviour
 {
-    public TextAsset conversationTree; // conversation JSON text file
+    public TextAsset[] conversationTrees; // conversation JSON text file
     public Sprite backdropSprite; // sprite for the backdrop when the conversation pops up
     public Sprite playerSprite; // sprite for the player in the conversation
     public Sprite NPCSprite; // sprite for the NPC in the conversation
@@ -57,7 +57,7 @@ public class ConversationController : MonoBehaviour
 
         // Loading the node
         parser = GetComponent<JSONReader>();
-        parser.parseJSON(conversationTree);
+        parser.parseJSON(conversationTrees[Mathf.RoundToInt(Random.Range(0, conversationTrees.Length - 1))]);
         loadSpecificNode("0");
 
         // Loading the sprites
@@ -89,7 +89,7 @@ public class ConversationController : MonoBehaviour
         {
             stageParent.SetActive(false);
             
-            // DO SOME EFFECT HERE AFTER WINNING OR LOSING
+            // DO SOME EFFECT HERE AFTER TALKING
         }
     }
 

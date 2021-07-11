@@ -187,21 +187,29 @@ PrefabInstance:
       value: Conversation_Stage
       objectReference: {fileID: 0}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
-      propertyPath: NPCSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ce145228f20ce4a4589361a91242b9b5, type: 3}
-    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
-      propertyPath: playerSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a11f9e7f3343a914bb3ad74b4016a172, type: 3}
-    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
-      propertyPath: backdropSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 118203d1e96b51e40b0c0651ed791e78, type: 3}
-    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTree
       value: 
       objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: conversationTrees.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: conversationTrees.Array.data[0]
+      value: 
+      objectReference: {fileID: 4900000, guid: 7d86230b281f18149a6cf510aa53ab71, type: 3}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: conversationTrees.Array.data[1]
+      value: 
+      objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: conversationTrees.Array.data[2]
+      value: 
+      objectReference: {fileID: 4900000, guid: 90e17eccf67c36448801ae84ecd5fdf1, type: 3}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: conversationTrees.Array.data[3]
+      value: 
+      objectReference: {fileID: 4900000, guid: 511de4a3261b7614c9b3cad5e557291c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
 --- !u!1 &1209639375
@@ -287,3 +295,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244066069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8278343936138653172, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+  m_PrefabInstance: {fileID: 824834545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244066074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244066069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259ac3020831985469d5db0d7713f81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2031759156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8278343937931189665, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+  m_PrefabInstance: {fileID: 824834545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2031759161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031759156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259ac3020831985469d5db0d7713f81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2141878847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8278343937530910948, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+  m_PrefabInstance: {fileID: 824834545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2141878852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141878847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259ac3020831985469d5db0d7713f81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
