@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: c75a40d901222794aabf56d77d9c7072
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1780930160364726633
+    second: souperhero_tiles_18
+  - first:
+      213: -292208424230444407
+    second: souperhero_tiles_19
+  - first:
+      213: 122401652182543848
+    second: souperhero_tiles_20
+  - first:
+      213: 2373390613134194575
+    second: souperhero_tiles_21
+  - first:
+      213: -7951059802714972583
+    second: souperhero_tiles_22
+  - first:
+      213: -391063933187533918
+    second: souperhero_tiles_23
+  - first:
+      213: 9192152312948497468
+    second: souperhero_tiles_24
+  - first:
+      213: -1139414268793666969
+    second: souperhero_tiles_25
+  - first:
+      213: -2246327685312680547
+    second: souperhero_tiles_26
+  - first:
+      213: 5560106553792250412
+    second: souperhero_tiles_27
+  - first:
+      213: 329772195467920428
+    second: souperhero_tiles_28
+  - first:
+      213: -2980857303801678551
+    second: souperhero_tiles_29
+  - first:
+      213: 4186695174962986843
+    second: souperhero_tiles_30
+  - first:
+      213: -6140664957457867541
+    second: souperhero_tiles_31
+  - first:
+      213: -6783400082163634702
+    second: souperhero_tiles_32
+  - first:
+      213: -6374528338587795573
+    second: souperhero_tiles_33
+  - first:
+      213: -6127902257957739229
+    second: souperhero_tiles_34
+  - first:
+      213: 5041546935464394174
+    second: souperhero_tiles_35
+  - first:
+      213: 3886535594441029890
+    second: souperhero_tiles_36
+  - first:
+      213: 1804629738649798996
+    second: souperhero_tiles_37
+  - first:
+      213: -8773797893000287037
+    second: souperhero_tiles_38
+  - first:
+      213: 3096204226546109131
+    second: souperhero_tiles_39
+  - first:
+      213: 1867240620267250310
+    second: souperhero_tiles_40
+  - first:
+      213: -3198763816791824291
+    second: souperhero_tiles_41
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +104,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +113,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +147,903 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: souperhero_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c1c37bf1871bd10800000000000000
+      internalID: 2139623375591185536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d40c6297d384e10800000000000000
+      internalID: 2182061610011479313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096db5168b47ae180800000000000000
+      internalID: -9085320963010341232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9c5d79421613b0800000000000000
+      internalID: -5542222184587683208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 3040
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34025afce6b8be620800000000000000
+      internalID: 2804488501014634563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2761
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3ae48a8e8217a0800000000000000
+      internalID: -6407902594208220178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2760
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e80c10e0a23edb0800000000000000
+      internalID: -4763917741180547556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2759
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20672a1de6318e6e0800000000000000
+      internalID: -1808173883704838654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2756
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e7f22f82d06800800000000000000
+      internalID: 603713862276473228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3035
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4839e5f39ed4725b0800000000000000
+      internalID: -5393256364566998140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3037
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8516cf8f38ba161b0800000000000000
+      internalID: -5665058272949018280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3040
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe679d92cfec36f0800000000000000
+      internalID: -703423822629998864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 3040
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f3d1709ca3a730800000000000000
+      internalID: 4009237829674858264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 3040
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f41317143fdeb0800000000000000
+      internalID: -4692975012987733736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98aa257e9a926440800000000000000
+      internalID: 4927670947657984158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fd8e06154be54b0800000000000000
+      internalID: -5449720237460496495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3feca8255782c40800000000000000
+      internalID: 5487765143327536109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcc713274272c6b0800000000000000
+      internalID: -5277530163467793191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a15a8b8227b810800000000000000
+      internalID: 1780930160364726633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822e518cfdd1fbf0800000000000000
+      internalID: -292208424230444407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede24677abd2b100800000000000000
+      internalID: 122401652182543848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f873c19103affe020800000000000000
+      internalID: 2373390613134194575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e59476c3928a190800000000000000
+      internalID: -7951059802714972583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 3318
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d3e9bc69a29af0800000000000000
+      internalID: -391063933187533918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 3320
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c949693d5119f70800000000000000
+      internalID: 9192152312948497468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 3039
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ca8862ccff20f0800000000000000
+      internalID: -1139414268793666969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1509
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9defcb2fd073d0e0800000000000000
+      internalID: -2246327685312680547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1514
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22cb14b377792d40800000000000000
+      internalID: 5560106553792250412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1504
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c248aa78016939400800000000000000
+      internalID: 329772195467920428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1235
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925b5c0531ed1a6d0800000000000000
+      internalID: -2980857303801678551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1230
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fb28e54112a1a30800000000000000
+      internalID: 4186695174962986843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1210
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becd80e71c9f7caa0800000000000000
+      internalID: -6140664957457867541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 921
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fde745b0958cd1a0800000000000000
+      internalID: -6783400082163634702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 911
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f30dfef302987a0800000000000000
+      internalID: -6374528338587795573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 916
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3256d180d5155faa0800000000000000
+      internalID: -6127902257957739229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 617
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd70def93c27f540800000000000000
+      internalID: 5041546935464394174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 632
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209b199088fbfe530800000000000000
+      internalID: 3886535594441029890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 342
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c35b9f255b0910800000000000000
+      internalID: 1804629738649798996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 332
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca5a84d453d3680800000000000000
+      internalID: -8773797893000287037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 48
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0853f65de7fa20800000000000000
+      internalID: 3096204226546109131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 53
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a5397375c9e910800000000000000
+      internalID: 1867240620267250310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: souperhero_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 53
+        width: 257
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5820c3a145bb93d0800000000000000
+      internalID: -3198763816791824291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
