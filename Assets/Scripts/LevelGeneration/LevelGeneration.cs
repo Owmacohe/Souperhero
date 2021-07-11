@@ -28,7 +28,8 @@ public class LevelGeneration : MonoBehaviour
         int randomStartingPositions = Random.Range(0, startingPosiitonsArr.Length);
         transform.position = startingPosiitonsArr[randomStartingPositions].position;
         Instantiate(rooms[0], transform.position, Quaternion.identity);
-         player.transform.position = transform.position;
+        player.transform.position = transform.position;
+        player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -1);
 
         roomDirection = Random.Range(1, 6);
     }
