@@ -5,10 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class ScenesContoller : MonoBehaviour
 {
+   
+    
+    
+    
     public void LoadScene(string sceneName)
     {
-    
-        SceneManager.LoadScene(sceneName);
+
+        StartCoroutine(waitsecs());
+
+      IEnumerator waitsecs()
+        {
+            yield return new WaitForSeconds(70 * Time.deltaTime);
+            SceneManager.LoadScene(sceneName);
+        }
+
+        
+
     }
     public void QuitGame() => Application.Quit();
+
+  
+
 }
