@@ -12,7 +12,7 @@ public class LoadLevels : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("LevelsScene");
+         SceneManager.LoadScene("LevelsScene");
     }
 
 }
