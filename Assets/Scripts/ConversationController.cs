@@ -73,6 +73,11 @@ public class ConversationController : MonoBehaviour
         conversationTarget.SetActive(false);
         player.SetActive(false);
 
+        if (doesGiveItem)
+        {
+            gameObject.transform.position = player.transform.position;
+        }
+
         // Loading the node
         TXTparser = GetComponent<TXTReader>();
         JSONparser = GetComponent<JSONReader>();
