@@ -1222,37 +1222,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130904, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_Mass
-      value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130904, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130904, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130904, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130905, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_SortingOrder
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 2380760298072130906, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130906, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2380760298072130907, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
-      propertyPath: moveSpeed
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6a2e2665db697c4184e6a5487261480, type: 3}
@@ -1680,7 +1652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 497165744}
-  smoothing: 0.02
+  smoothing: 0.04
   minPosition: {x: 5.599998, y: 3.099998}
   maxPosition: {x: 34.6, y: 37.1}
 --- !u!1 &1872370049
