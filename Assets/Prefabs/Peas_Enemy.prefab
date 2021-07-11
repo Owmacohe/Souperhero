@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7642783778525490387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 959420331188613809}
@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7439969601593253001, guid: 42910036c3073104ea7b5bd11db1a62c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7439969601593253001, guid: 42910036c3073104ea7b5bd11db1a62c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fe98597e59e643147b48acc91a8cadc5, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: doesGiveItem
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTarget
