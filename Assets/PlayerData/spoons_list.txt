@@ -1,0 +1,6 @@
+spoon_copper
+spoon_gold
+spoon_platinum
+spoon_sapphire
+spoon_silver
+spoon_spork
