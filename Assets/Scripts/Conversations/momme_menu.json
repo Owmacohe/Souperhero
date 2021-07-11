@@ -1,0 +1,18 @@
+{
+	"nodes": [
+		{
+			"id": "0",
+			"dialogue": "Soup du bonjour, ma petit pomme! You're getting so big these days. I remember when you were nothing more than a little r-r-rapscallion!",
+			"response1": "Aw, Momme, you're embarassing me!",
+			"response2": "",
+			"response3": ""
+		},
+		{
+			"id": "0.0",
+			"dialogue": "Désolée, mon poireau! Here, maybe this will help.",
+			"response1": "Thanks, Momme.",
+			"response2": "",
+			"response3": ""
+		}
+	]
+}
