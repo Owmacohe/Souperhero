@@ -35,6 +35,11 @@ public class InventoryController : MonoBehaviour
         loadTab("recipes");
     }
 
+    public void exitInventory()
+    {
+        stageParent.SetActive(false);
+    }
+
     public void loadTab(string inventoryType)
     {
         string targetPath;
