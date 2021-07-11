@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title Screen.unity
     guid: 1354d13ccaa5f7b40b17e7dc7fc50cd3
-  - enabled: 1
-    path: Assets/Scenes/LevelsScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Zeno tsts.unity
     guid: 46e7caf5fc475b8439fef6875220575b
+  - enabled: 1
+    path: Assets/Scenes/SafeRoom.unity
+    guid: 36a9609ca5b28c74c98b19a22de2f63a
   m_configObjects: {}
