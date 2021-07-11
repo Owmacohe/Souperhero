@@ -2193,6 +2193,10 @@ PrefabInstance:
       value: momme_Conversation_Stage
       objectReference: {fileID: 0}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: NPCSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed0827b5b9d97a7458561a5d3a14eb04, type: 3}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTarget
       value: 
       objectReference: {fileID: 760981873}
@@ -4465,6 +4469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: garlic_Conversation_Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
+      propertyPath: NPCSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 01c4b043d38b26b4a8d8da87e153931c, type: 3}
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTarget
       value: 
