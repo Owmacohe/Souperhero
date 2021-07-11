@@ -3,22 +3,22 @@
 		{
 			"id": "recipe_card_chickensoup",
 			"name": "Chicken Soup",
-			"description": "Good for the soul, or so you've been told.\n1 chicken\n4 carrots\n1 large onion\nwater to cover\nsalt and pepper to taste\n1 tsp chicken bouillon\nPut chicken, carrots, celery, and onion in a large soup pot and cover with cold water. Simmer uncovered until chicken meat falls off the bone (skim the foam from the top occasionally!).\nTake everything out of the pot and strain the broth. Season the broth with salt, pepper, and bouillon to taste. Put chicken meat and chopped veggies back into the pot, stir together, and serve."
+			"description": "Good for the soul, or so you've been told."
 		},
 		{
 			"id": "recipe_card_minestrone",
 			"name": "Minestrone",
-			"description": "A classic recipe that uses whatever veggies you've got on hand!\n2 tablespoons olive oil\n1 small onion, chopped\n4 cloves garlic, minced\n2 carrots, peeled and diced\n2 celery ribs, diced\n1 cup green beans\n28 ounces diced tomatoes\n6 cups vegetable broth\n14 ounces cannellini beans\n1 teaspoon dried basil\n1/2 teaspoon dried oregano\n1/2 teaspoon dried thyme\n1 cup elbow macaroni\nsalt and pepper to taste\nparmesan cheese for garnish\nHeat oil in large stockpot. Add onion, garlic, carrot, and celery and cook until lightly browned, about 5 minutes. Add in green beans and tomatoes.\nStir in broth, beans, basil, oregano, and thyme. Simmer for 20 minutes.\nAdd the pasta and cook until tender, 12 to 15 minutes.\nSeason soup with salt and pepper. Serve and top with parmesan cheese."
+			"description": "A classic recipe that uses whatever veggies you've got on hand!"
 		},
 		{
 			"id": "recipe_card_pho",
 			"name": "Pho Soup",
-			"description": "Delicious, rich broth with meat and noodles. The ultimate comfort food!\n2cm section ginger\n2 medium green onions\n15 g cilantro sprigs\n1 1/2 teaspoons coriander seeds\n1 whole clove\n3 1/2 to 4 cups chicken brother\n2 cups water\n6 to 8 ounces chicken (breast or thigh)\n1/2 teaspoon sea salt\n5 ounces dried flat rice noodles\n2 to 3 teaspoons fish sauce\n1/2 teaspoon sugar\nPepper to taste\nPeel and slice ginger into 4 or 5 coins. Thinkly slice green onion into pinkie-finger length, add part to ginger, set aside rest for garnish. Chop leafy parts of cilantro, set aside for garnish.\nIn a 4-quart pot, toast coriander seeds and clove over medium heat for 1 minute. Add ginger and green onion sections, stir for 30 seconds.\nTake pot off of heat, and after 15 seconds, add in broth. Return to heat and add water, cilantro stems, chicken, and salt. Bring to a boil, then gently simmer.\nRemove chicken after 10 minutes. Simmer broth without chicken for 15 minutes.\nShred chicken and cover to prevent drying.\nSoak the rice noodles in hot water until pliable and opaque. Strain, rinse, and set aside.\n Strain the broth through a fine-mesh strainer, discarding any solids. Season broth with fish sauce and sugar.\nPut noodles into bowls, top with chicken and garnishs, then pour hot broth over. Enjoy!"
+			"description": "Delicious, rich broth with meat and noodles. The ultimate comfort food!"
 		},
 		{
 			"id": "recipe_card_potatoleek",
 			"name": "Potato and Leek Soup",
-			"description": "Velvety and rich, it remind you of home!\n8 cups chicken stock\n6 russet potatoes, peeled and cut into large pieces\n4 leeks (whites only), washed and sliced\n3 stalks celery, roughly chopped\n1 bay leaf\n1 1/2 teaspons finely chopped thyme\nSalt and pepper to taste\n1 cup heavy cream\nPut chicken stock, potatoes, leeks, celery, bay leaf, and thyme in a large pot. Season with salt and pepper. Boil until potatoes are soft, 15 to 20 minutes.\nRemove bay leaf. Blend the soup until smooth using blender or food processor. Add cream and simmer until soup has thickened, about 20 minutes."
+			"description": "Velvety and rich, it reminds you of home! Momme de Terre's specialty."
 		}
 	]
 }
