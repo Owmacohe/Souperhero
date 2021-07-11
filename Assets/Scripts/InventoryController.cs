@@ -10,6 +10,8 @@ public class InventoryController : MonoBehaviour
     public Sprite recipesBackdrop, spoonsBackdrop, bowlsBackdrop;
     public GameObject recipesDescription, spoonsDescription, bowlsDescription;
     public GameObject recipeItemsParent, spoonItemsParent, bowlItemsParent;
+    public GameObject player;
+    public bool isFollowingPlayer;
 
     private GameObject stageParent; // the parent of all of the conversation sprites and buttons
     private TXTReader TXTparser; // TXT parsing script
@@ -48,11 +50,14 @@ public class InventoryController : MonoBehaviour
         JSONparser = GetComponent<JSONReader>();
 
         loadTab("recipes");
+
+        player.SetActive(false);
     }
 
     public void exitInventory()
     {
         stageParent.SetActive(false);
+        player.SetActive(true);
     }
 
     public void loadTab(string inventoryType)
@@ -93,6 +98,12 @@ public class InventoryController : MonoBehaviour
                 spoonItemsParent.SetActive(false);
                 bowlItemsParent.SetActive(false);
                 break;
+        }
+
+        if (isFollowingPlayer)
+        {
+            itemParent.transform.position = player.transform.position;
+            itemParent.transform.position = new Vector3(itemParent.transform.position.x, itemParent.transform.position.y, 0);
         }
 
         string[] inv = TXTparser.readFromWholeFile(targetPath);
