@@ -11,6 +11,9 @@ public class PlayerMovements : MonoBehaviour
 
     Vector2 movement;
 
+    [HideInInspector]
+    public int talkCount;
+
     void Start()
     {
         playerRigidBody2d = GetComponent<Rigidbody2D>();
