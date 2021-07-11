@@ -22,8 +22,12 @@ public class ConversationController : MonoBehaviour
     public GameObject playerChoice2; // choice 2
     public GameObject playerChoice3; // choice 3
     public TMP_Text NPCDialogue; // dialogue
+    public bool doesGiveItem;
+    public string recipeFilePath, spoonsFilePath, bowlsFilePath;
+    public string recipeListFilePath, spoonsListFilePath, bowlsListFilePath;
 
-    private JSONReader parser; // JSON parsing script
+    private TXTReader TXTparser; // TXT parsing script
+    private JSONReader JSONparser; // JSON parsing script
     private string currentNode; // the current node
     private GameObject stageParent; // the parent of all of the conversation sprites and buttons
     private bool isHittingPlayer;
@@ -70,8 +74,9 @@ public class ConversationController : MonoBehaviour
         player.SetActive(false);
 
         // Loading the node
-        parser = GetComponent<JSONReader>();
-        parser.parseJSON(conversationTrees[Mathf.RoundToInt(Random.Range(0, conversationTrees.Length - 1))]);
+        TXTparser = GetComponent<TXTReader>();
+        JSONparser = GetComponent<JSONReader>();
+        JSONparser.parseJSON(conversationTrees[Mathf.RoundToInt(Random.Range(0, conversationTrees.Length - 1))]);
         loadSpecificNode("0");
 
         // Loading the sprites
@@ -95,10 +100,10 @@ public class ConversationController : MonoBehaviour
 
         try
         {
-            NPCDialogue.text = parser.getDialogueFromID(currentNode);
-            playerChoice1.GetComponentInChildren<TMP_Text>().text = parser.getResponsesFromID(currentNode)[0];
-            playerChoice2.GetComponentInChildren<TMP_Text>().text = parser.getResponsesFromID(currentNode)[1];
-            playerChoice3.GetComponentInChildren<TMP_Text>().text = parser.getResponsesFromID(currentNode)[2];
+            NPCDialogue.text = JSONparser.getDialogueFromID(currentNode);
+            playerChoice1.GetComponentInChildren<TMP_Text>().text = JSONparser.getResponsesFromID(currentNode)[0];
+            playerChoice2.GetComponentInChildren<TMP_Text>().text = JSONparser.getResponsesFromID(currentNode)[1];
+            playerChoice3.GetComponentInChildren<TMP_Text>().text = JSONparser.getResponsesFromID(currentNode)[2];
         }
         // When the nodes run out
         catch
@@ -106,7 +111,25 @@ public class ConversationController : MonoBehaviour
             exitConversation();
             isExhausted = true;
 
-            // DO SOME EFFECT HERE AFTER TALKING
+            if (doesGiveItem)
+            {
+                string[] itemList;
+
+                switch (Mathf.RoundToInt(Random.Range(0, 2))) {
+                    case 0:
+                        itemList = TXTparser.readFromWholeFile(recipeListFilePath);
+                        TXTparser.writeToEndOfFile(recipeFilePath, itemList[Mathf.RoundToInt(Random.Range(0, itemList.Length - 1))]);
+                        break;
+                    case 1:
+                        itemList = TXTparser.readFromWholeFile(spoonsListFilePath);
+                        TXTparser.writeToEndOfFile(spoonsFilePath, itemList[Mathf.RoundToInt(Random.Range(0, itemList.Length - 1))]);
+                        break;
+                    case 2:
+                        itemList = TXTparser.readFromWholeFile(bowlsListFilePath);
+                        TXTparser.writeToEndOfFile(bowlsFilePath, itemList[Mathf.RoundToInt(Random.Range(0, itemList.Length - 1))]);
+                        break;
+                }
+            }
         }
     }
 
