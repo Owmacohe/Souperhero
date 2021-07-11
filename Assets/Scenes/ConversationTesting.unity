@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 8278343937074297590, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
       propertyPath: conversationTree
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4900000, guid: d185d989e2931b1469cd3fd6193e441f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e623a0bea53beb343b0d48ebea14288e, type: 3}
 --- !u!1 &1209639375
