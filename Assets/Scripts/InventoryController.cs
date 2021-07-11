@@ -6,11 +6,16 @@ using UnityEngine;
 public class InventoryController : MonoBehaviour
 {
     public string recipeFilePath, spoonsFilePath, bowlsFilePath;
-    public Vector2 incrementValues;
+    public TextAsset recipeDescriptionFilePath, spoonsDescriptionFilePath, bowlsDescriptionFilePath;
+    public Sprite recipesBackdrop, spoonsBackdrop, bowlsBackdrop;
+    public GameObject recipesDescription, spoonsDescription, bowlsDescription;
+    public GameObject recipeItemsParent, spoonItemsParent, bowlItemsParent;
 
     private GameObject stageParent; // the parent of all of the conversation sprites and buttons
-    private TXTReader parser; // TXT parsing script
-    private GameObject itemsParent;
+    private TXTReader TXTparser; // TXT parsing script
+    private JSONReader JSONparser; // JSON parsing script
+    private GameObject itemParent;
+    private TextAsset targetDescriptionPath;
 
     private void Start()
     {
@@ -24,9 +29,8 @@ public class InventoryController : MonoBehaviour
     public void startInventory()
     {
         stageParent.SetActive(true);
-        parser = GetComponent<TXTReader>();
-
-        itemsParent = stageParent.transform.GetChild(4).gameObject;
+        TXTparser = GetComponent<TXTReader>();
+        JSONparser = GetComponent<JSONReader>();
 
         loadTab("recipes");
     }
@@ -39,44 +43,66 @@ public class InventoryController : MonoBehaviour
         {
             case "recipes":
                 targetPath = recipeFilePath;
+                targetDescriptionPath = recipeDescriptionFilePath;
+                itemParent = recipeItemsParent;
+                recipeItemsParent.SetActive(true);
+                spoonItemsParent.SetActive(false);
+                bowlItemsParent.SetActive(false);
                 break;
             case "spoons":
                 targetPath = spoonsFilePath;
+                targetDescriptionPath = spoonsDescriptionFilePath;
+                itemParent = spoonItemsParent;
+                recipeItemsParent.SetActive(false);
+                spoonItemsParent.SetActive(true);
+                bowlItemsParent.SetActive(false);
                 break;
             case "bowls":
                 targetPath = bowlsFilePath;
+                targetDescriptionPath = bowlsDescriptionFilePath;
+                itemParent = bowlItemsParent;
+                recipeItemsParent.SetActive(false);
+                spoonItemsParent.SetActive(false);
+                bowlItemsParent.SetActive(true);
                 break;
             default:
                 targetPath = recipeFilePath;
+                targetDescriptionPath = recipeDescriptionFilePath;
+                itemParent = recipeItemsParent;
+                recipeItemsParent.SetActive(true);
+                spoonItemsParent.SetActive(false);
+                bowlItemsParent.SetActive(false);
                 break;
         }
 
-        if (itemsParent.transform.childCount > 0)
+        string[] inv = TXTparser.readFromWholeFile(targetPath);
+
+        for (int i = 0; i < itemParent.transform.childCount; i++)
         {
-            for (int i = 0; i < itemsParent.transform.childCount; i++)
+            if (i < inv.Length && inv[i] != null)
             {
-                Destroy(itemsParent.transform.GetChild(i).gameObject);
+                itemParent.transform.GetChild(i).GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites\\" + inv[i]);
             }
         }
+    }
 
-        string[] items = parser.readFromWholeFile(targetPath);
-        Vector2 startingPosition = new Vector2(-5.5f, 2);
-        float itemOffset = 0;
+    public void highlightItem(GameObject givenSprite)
+    {
+        string itemName = givenSprite.GetComponent<SpriteRenderer>().sprite.name;
 
-        for (int j = 0; j < items.Length; j++)
+        itemParent.transform.GetChild(itemParent.transform.childCount - 1).GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>(
+            "Sprites\\" + itemName
+        );
+
+        JSONparser.parseDescriptionJSON(targetDescriptionPath);
+        JSONDescriptionnode[] descriptions = JSONparser.nodeDescriptionArray;
+
+        for (int i = 0; i < descriptions.Length; i++)
         {
-            GameObject newItem = Instantiate(Resources.Load<GameObject>("Inventory_Item"), itemsParent.transform);
-
-            newItem.GetComponentInChildren<TMP_Text>().text = items[j];
-            newItem.GetComponentInChildren<SpriteRenderer>().sprite = Resources.Load<Sprite>(items[j]);
-
-            newItem.transform.position = new Vector3(itemOffset + startingPosition.x, startingPosition.y, 0);
-            itemOffset += incrementValues.x;
-
-            if (j == 1 || j == 3 || j == 5 || j == 7 || j == 9 || j == 11)
+            if (descriptions[i].id.Equals(itemName))
             {
-                startingPosition = new Vector2(startingPosition.x, startingPosition.y - incrementValues.y);
-                itemOffset = 0;
+                itemParent.transform.GetChild(itemParent.transform.childCount - 2).GetComponent<TMP_Text>().text = descriptions[i].name;
+                itemParent.transform.GetChild(itemParent.transform.childCount - 3).GetComponent<TMP_Text>().text = descriptions[i].description;
             }
         }
     }
