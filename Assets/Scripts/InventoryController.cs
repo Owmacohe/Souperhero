@@ -23,7 +23,22 @@ public class InventoryController : MonoBehaviour
         stageParent = transform.GetChild(0).gameObject;
         stageParent.SetActive(false);
 
-        startInventory();
+        exitInventory();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (stageParent.activeSelf)
+            {
+                exitInventory();
+            }
+            else
+            {
+                startInventory();
+            }
+        }
     }
 
     public void startInventory()
