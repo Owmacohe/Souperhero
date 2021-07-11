@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ConversationController : MonoBehaviour
 {
@@ -75,7 +76,7 @@ public class ConversationController : MonoBehaviour
 
         if (doesGiveItem)
         {
-            gameObject.transform.position = player.transform.position;
+            gameObject.transform.position = new Vector2(gameObject.transform.position.x + 2, gameObject.transform.position.y - 2.5f);
         }
 
         // Loading the node
@@ -134,6 +135,13 @@ public class ConversationController : MonoBehaviour
                         TXTparser.writeToEndOfFile(bowlsFilePath, itemList[Mathf.RoundToInt(Random.Range(0, itemList.Length - 1))]);
                         break;
                 }
+            }
+
+            player.GetComponent<PlayerMovements>().talkCount++;
+
+            if (player.GetComponent<PlayerMovements>().talkCount >= 2)
+            {
+                SceneManager.LoadScene("Epilogue");
             }
         }
     }
