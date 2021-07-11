@@ -31,6 +31,23 @@ public class ConversationController : MonoBehaviour
         // Turning the stage off to start
         stageParent = transform.GetChild(0).gameObject;
         stageParent.SetActive(false);
+
+        exitConversation();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (stageParent.activeSelf)
+            {
+                exitConversation();
+            }
+            else
+            {
+                startConversation();
+            }
+        }
     }
 
     // Method to load the first node and initalize sprites
@@ -48,6 +65,11 @@ public class ConversationController : MonoBehaviour
         sprites[0].sprite = backdropSprite;
         sprites[1].sprite = playerSprite;
         sprites[2].sprite = NPCSprite;
+    }
+
+    public void exitConversation()
+    {
+        stageParent.SetActive(false);
     }
 
     // Method to load a specific node
