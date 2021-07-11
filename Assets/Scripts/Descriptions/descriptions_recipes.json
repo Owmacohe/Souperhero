@@ -1,0 +1,24 @@
+{
+	"descriptions": [
+		{
+			"id": "recipe_card_chickensoup",
+			"name": "Chicken Soup",
+			"description": "Good for the soul, or so you've been told."
+		},
+		{
+			"id": "recipe_card_minestrone",
+			"name": "Minestrone",
+			"description": "A classic recipe that uses whatever veggies you've got on hand!"
+		},
+		{
+			"id": "recipe_card_pho",
+			"name": "Pho Soup",
+			"description": "Delicious, rich broth with meat and noodles. The ultimate comfort food!"
+		},
+		{
+			"id": "recipe_card_potatoleek",
+			"name": "Potato and Leek Soup",
+			"description": "Velvety and rich, it reminds you of home! Momme de Terre's specialty."
+		}
+	]
+}

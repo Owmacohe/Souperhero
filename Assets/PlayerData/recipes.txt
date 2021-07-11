@@ -1,0 +1,4 @@
+recipe_card_chickensoup
+recipe_card_minestrone
+recipe_card_pho
+recipe_card_potatoleek

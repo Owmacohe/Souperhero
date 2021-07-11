@@ -27,10 +27,27 @@ public class JSONnode
     public string response3; // player response 3
 }
 
+// Full tree
+[Serializable]
+public class JSONDescriptionTree { public JSONDescriptionnode[] descriptions; }
+
+// Individual nodes
+[Serializable]
+public class JSONDescriptionnode
+{
+    public string id;
+    public string name;
+    public string description;
+}
+
 public class JSONReader : MonoBehaviour
 {
     private JSONtree myTree; // local tree of conversation nodes
-    private JSONnode[] nodeArray; // array of nodes in the tree
+    private JSONDescriptionTree myDescriptionTree; // local tree of conversation nodes
+    [HideInInspector]
+    public JSONnode[] nodeArray; // array of nodes in the tree
+    [HideInInspector]
+    public JSONDescriptionnode[] nodeDescriptionArray; // array of nodes in the tree
     private int nodeArrayLength; // length of the number of nodes in the tree
 
     public void parseJSON(TextAsset givenFile)
@@ -40,6 +57,14 @@ public class JSONReader : MonoBehaviour
         // Getting the tree array and its length
         nodeArray = myTree.nodes;
         nodeArrayLength = myTree.nodes.Length;
+    }
+
+    public void parseDescriptionJSON(TextAsset givenFile)
+    {
+        myDescriptionTree = JsonUtility.FromJson<JSONDescriptionTree>(givenFile.text); // Parsing the JSON file
+
+        // Getting the tree array
+        nodeDescriptionArray = myDescriptionTree.descriptions;
     }
 
     // Method to quickly return NPC dialogue from a given ID
