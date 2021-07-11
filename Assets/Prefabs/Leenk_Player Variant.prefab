@@ -21,19 +21,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3011027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9113380551379385725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cebb0eecd7e7b54487139699018a886, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
 --- !u!58 &2507227776402953488
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -50,6 +37,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.01}
   serializedVersion: 2
   m_Radius: 0.015
+--- !u!114 &3011027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9113380551379385725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cebb0eecd7e7b54487139699018a886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
 --- !u!1001 &6156967433556612350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116,6 +116,10 @@ PrefabInstance:
     - target: {fileID: 3100950518363695491, guid: 44af8e19c2723c24cb71d51ae358a97d, type: 3}
       propertyPath: m_Name
       value: Leenk_Player Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100950518363695491, guid: 44af8e19c2723c24cb71d51ae358a97d, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44af8e19c2723c24cb71d51ae358a97d, type: 3}
